@@ -1,4 +1,25 @@
-img[alt=hero] {
-  width: 230px;
-  height: 230px;
+a code {
+  text-decoration: underline;
+}
+
+html:not(.dark) .theme-default-content.content__default a.link-hover-effect {
+  text-decoration: none;
+  color: var(--vp-c-active-link);
+  max-width: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom
+}
+
+#hero p.tagline {
+  display: block !important;
+  margin-top: 0 !important;
+}
+
+.theme-container.no-sidebar .navbar .home-link {
+  min-width: fit-content !important;
+}
+
+.dropdown-wrapper .nav-dropdown {
+  background-color: inherit !important;
 }
